@@ -1,1 +1,6 @@
 ＃Wikidata_Extraction
+これはWikidataQueryServiceから取得したjsonデータから対応するWikipediaの記事を取得するコードです。
+
+このコードではElasticsearch6.8.4が起動しており、またその中にWikipediaの記事が入っていることが前提です。
+
+WikipediaのDB構造は
